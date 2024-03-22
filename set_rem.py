@@ -1,0 +1,10 @@
+a={1,2,3,4,5,'hi','mystring'}
+print("Removing element using pop")
+a.pop()
+print(a)
+print("Removing element using remove")
+a.remove(2)
+print(a)
+print("Removing element using discard")
+a.discard("hi")
+print(a)

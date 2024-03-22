@@ -1,0 +1,20 @@
+d={'Name':'Anjali','Address':'Varapuzha','Course':'python'}
+print(type(d))
+print(d)
+print(d['Name'])
+print(d.get('Address'))
+d['Phone']='1234'
+d['Address']='kochi'
+print(d)
+d.pop('Course')
+print(d)
+d.popitem()
+print("popitem")
+print(d)
+d.update({'Name':'Anju'})
+d.update({'Year':'2024'})
+print(d)
+del d['Year']
+print(d)
+d.clear()
+print(d)

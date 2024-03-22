@@ -1,0 +1,10 @@
+s=input("Enter the string")
+i=input("Enter the substring to be checked")
+if i in s:
+    print("Substring is found in first string")
+print("Returning boolean value")
+print(i in s)
+print("Case conversion")
+s1=input("Enter the string")
+print(s1.upper())
+print(s1.lower())
