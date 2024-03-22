@@ -1,0 +1,7 @@
+print("Area of square")
+s=int(input("Enter the side of the square: "))
+print("Area of the square is : ",s*s)
+print("Area of the triangle")
+b=int(input("Enter the  breadth of the triangle : "))
+h=int(input("Enter the height of the triangle : "))
+print("Area of the triangle is : ",0.5*b*h)
